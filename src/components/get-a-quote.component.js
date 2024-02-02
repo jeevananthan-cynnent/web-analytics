@@ -30,7 +30,7 @@ export function Getquote() {
             <div class="container">
               <ol>
                 <li>
-                  <Link to="./">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>Get a Quote</li>
               </ol>
