@@ -1,5 +1,6 @@
 import "../App.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Service() {
   return (
@@ -29,7 +30,7 @@ export function Service() {
             <div class="container">
               <ol>
                 <li>
-                  <a href="./">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>Services</li>
               </ol>

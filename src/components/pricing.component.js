@@ -1,5 +1,6 @@
 import "../App.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Pricing() {
   return (
@@ -29,7 +30,7 @@ export function Pricing() {
             <div class="container">
               <ol>
                 <li>
-                  <a href="index.html">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>Pricing</li>
               </ol>
